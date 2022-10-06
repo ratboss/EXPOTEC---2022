@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Expotec</title>
+    <link rel="stylesheet" href="css/indexcss.css">
+    <link rel="stylesheet" href="./css/contrast.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+
+    .box{
+      width: 400px;
+      display: inline-block;
+      float: left;
+      text-align: justify;
+    }
+    .box2 {
+      width: 400px;
+      
+    }
+
+    img{
+      margin-left: 50px;
+    }
+
+    img:hover {
+      transition: 1s;
+      padding: 1%;
+    }
+
+
+  </style>
+<body>
+  <header>
+    <nav class="navbar bg-light">
+      
+      <form class="container-fluid justify-content-start">
+        <img src="" alt="logo">
+        <button class="btn btn-outline-success me-2" type="button"><a href="index.html">Início</a></button>
+        <button class="btn btn-outline-success me-2" type="button"><a href="receitas.html">Receitas</a></button>
+        <button class="btn btn-outline-success me-2" type="button"><a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</a></button>
+      </form>
+    </nav>
+    </nav>
+    </header>
+
+    <main>
+      <h1>Sobre o site</h1>
+      <br>
+    <div class="box">
+        <h4>Quanto mais anos se passam mais existem pessoas que possuem alguma deficiência, tanto auditiva quanto visual. E existem 8,4% da população brasileira que possuem essas deficiências.</h4>
+        <h4> A maiorias dos sites não possuem recursos assistivos para cooperar com essas pessoas, e elas ficam simplesmente limitada á sites do governo e bancos, então fizemos esse site de receitas para poder ajudar esse grupo de pessoas que possuem deficiência. 
+          <br><br>
+          Nosso site possui três API que são: Narração para pessoas que tem deficiência visual, Libras para quem possui deficiência auditiva e Alto contraste para pessoas que possuem baixa visão.</h4>
+    </div>
+    <img src="images/deficientes.png" id="sla2" width="800" height="610">
+    </main>
+    <br>
+
+
+        <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="altocontraste.js"></script>
+</body>
+</html>
