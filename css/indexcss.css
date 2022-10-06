@@ -1,0 +1,281 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+nav {
+    position: fixed;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav button{
+    float: left;
+    background-color: red;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.receitasinteiras {
+    background-color: aqua;
+}
+
+header h1 {
+    margin-left: 22px;
+    font-size: 26px;
+}
+
+
+
+header li {
+    list-style-type: none;
+    font-size: 18px;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.margin-link{
+    margin-left: 20px;
+}
+.logo{
+    border:double black 1px;
+    border-radius: 10px;
+    float: left;
+    width: 50px ;
+    height: 40px;
+    margin:0 auto;
+    
+}
+
+
+header button:hover{
+    padding: 1%;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+.churrosb{
+    border-radius: 10px;
+
+}
+
+.bolochurros{
+    color: black;
+    display: block;
+
+
+}
+
+.receitastexto{
+    text-decoration: none;
+    text-align: justify;
+    color: black;
+    list-style-type: none;
+    
+}
+
+.receitastexto li{
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;    
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.preparo1{
+    color: black;
+    display: block;
+    
+}
+
+.bolochurros ul li {
+    display: block;
+}
+
+.card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    width: 22%;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+
+  }
+
+.card-body {
+    float: left;
+    height: auto;
+}
+
+.nada2 {
+    margin-right: 100px;
+}
+
+
+
+.imgsource{
+    width: 273px;
+}
+
+
+  .img {
+    width: 220px;
+  }
+  
+  .desc {
+    padding: 5%;
+    text-align: center;
+  }
+
+ .texto1 {
+    list-style-type: none;
+}
+
+.texto1 ul li {
+    list-style-type: none;
+}
+
+
+#type1 {
+    text-align: justify;
+}
+
+.salgados{
+    margin-top: 1%;
+}
+
+#titulo47{
+    margin-top: 20%;
+}
+
+.texto45 {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#bolosalgadoimg {
+    border-radius: 35px;
+}
+
+#titulopreparo {
+    font-size: 22px;
+    text-align: center;
+}
+
+.imagem-carrousel
+{
+    object-fit: cover;
+    object-position: 0.10%;
+    height: 400px;
+    width: 250px;
+
+}
+
+.botoes22{
+    margin-left: 900px;
+    text-align: center;
+    display: block;
+}
+
+.botoes23{
+    margin-left: 850px;
+    text-align: center;
+    display: inline;
+}
